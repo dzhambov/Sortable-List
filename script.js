@@ -29,7 +29,7 @@ function createList() {
     .map(a => a.value)
     .forEach((person, index) => {
       const listItem = document.createElement('li');
-
+      // listItem.classList.add('over');
       listItem.setAttribute('data-index', index);
 
       listItem.innerHTML = `
